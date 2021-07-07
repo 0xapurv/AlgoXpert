@@ -30,6 +30,7 @@ dependencies:
   font_awesome_flutter: ^8.8.1
   clipboard_manager: ^0.0.4
   fluttertoast: ^4.0.1
+  ff_navigation_bar: ^0.1.5
 
 
   # The following adds the Cupertino Icons font to your application.

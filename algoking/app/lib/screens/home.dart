@@ -1,4 +1,7 @@
 import 'package:app/ui/parentcard.dart';
+import 'package:ff_navigation_bar/ff_navigation_bar.dart';
+import 'package:ff_navigation_bar/ff_navigation_bar_item.dart';
+import 'package:ff_navigation_bar/ff_navigation_bar_theme.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
@@ -9,6 +12,7 @@ class MyApp extends StatefulWidget {
 }
 
 class _MyAppState extends State<MyApp> {
+  int selectedIndex = 0;
   bool _pinned = true;
   bool _snap = false;
   bool _floating = false;
@@ -180,6 +184,7 @@ class _MyAppState extends State<MyApp> {
             SliverList(delegate: new SliverChildBuilderDelegate(
                 (BuildContext context, int index) {
               if (index > listText.length - 1) return null;
+              if(selectedIndex == 0) return Container();
               return ParentCard(
                   database: database,
                   index: index,
@@ -191,6 +196,41 @@ class _MyAppState extends State<MyApp> {
             }))
           ],
         ),
+      ),
+      bottomNavigationBar: FFNavigationBar(
+        theme: FFNavigationBarTheme(
+
+          barBackgroundColor: Colors.white,
+          selectedItemBorderColor: Colors.transparent,
+          selectedItemBackgroundColor: Colors.green,
+          selectedItemIconColor: Colors.white,
+          selectedItemLabelColor: Colors.black,
+          showSelectedItemShadow: true,
+          barHeight: 70,
+        ),
+        selectedIndex: selectedIndex,
+        onSelectTab: (index) {
+          setState(() {
+            selectedIndex = index;
+            print(selectedIndex);
+          });
+        },
+        items: [
+          FFNavigationBarItem(
+            iconData: Icons.home,
+            label: 'Bar Theme',
+          ),
+          FFNavigationBarItem(
+            iconData: Icons.analytics,
+            label: 'Orange',
+            selectedBackgroundColor: Colors.orange,
+          ),
+          FFNavigationBarItem(
+            iconData: Icons.graphic_eq,
+            label: 'Purple',
+            selectedBackgroundColor: Colors.purple,
+          ),
+        ],
       ),
     );
   }
