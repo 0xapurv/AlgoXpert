@@ -1,5 +1,6 @@
 import 'package:app/ui/analysis.dart';
 import 'package:app/ui/parentcard.dart';
+import 'package:app/visualizer/SortScreen.dart';
 import 'package:ff_navigation_bar/ff_navigation_bar.dart';
 import 'package:ff_navigation_bar/ff_navigation_bar_item.dart';
 import 'package:ff_navigation_bar/ff_navigation_bar_theme.dart';
@@ -186,6 +187,12 @@ class _MyAppState extends State<MyApp> {
                 (BuildContext context, int index) {
               if (index > listText.length - 1) return null;
               if(selectedIndex == 1) return HomeScreen();
+              if(selectedIndex == 2) {
+                 Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => SortScreen()),
+                );
+              }
               return ParentCard(
                   database: database,
                   index: index,
