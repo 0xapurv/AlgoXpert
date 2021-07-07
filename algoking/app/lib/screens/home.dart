@@ -142,7 +142,7 @@ class _MyAppState extends State<MyApp> {
               expandedHeight: 495.0.h,
               centerTitle: true,
               flexibleSpace: FlexibleSpaceBar(
-                title: Text("Algopert",
+                title: Text("AlgoXpert",
                     style: GoogleFonts.abrilFatface(
                         fontSize: 20, color: Color(0xFF000000))),
                 background: Stack(
