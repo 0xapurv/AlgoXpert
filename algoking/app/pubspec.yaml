@@ -31,6 +31,8 @@ dependencies:
   clipboard_manager: ^0.0.4
   fluttertoast: ^4.0.1
   ff_navigation_bar: ^0.1.5
+  avatar_glow: ^2.0.1
+  reactive_forms: ^10.4.1
 
 
   # The following adds the Cupertino Icons font to your application.

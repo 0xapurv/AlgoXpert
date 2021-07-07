@@ -1,3 +1,4 @@
+import 'package:app/ui/analysis.dart';
 import 'package:app/ui/parentcard.dart';
 import 'package:ff_navigation_bar/ff_navigation_bar.dart';
 import 'package:ff_navigation_bar/ff_navigation_bar_item.dart';
@@ -184,7 +185,7 @@ class _MyAppState extends State<MyApp> {
             SliverList(delegate: new SliverChildBuilderDelegate(
                 (BuildContext context, int index) {
               if (index > listText.length - 1) return null;
-              if(selectedIndex == 0) return Container();
+              if(selectedIndex == 1) return HomeScreen();
               return ParentCard(
                   database: database,
                   index: index,
@@ -218,16 +219,17 @@ class _MyAppState extends State<MyApp> {
         items: [
           FFNavigationBarItem(
             iconData: Icons.home,
-            label: 'Bar Theme',
-          ),
-          FFNavigationBarItem(
-            iconData: Icons.analytics,
-            label: 'Orange',
+            label: 'Home',
             selectedBackgroundColor: Colors.orange,
           ),
           FFNavigationBarItem(
+            iconData: Icons.analytics,
+            label: 'Analyze',
+            selectedBackgroundColor: Colors.green,
+          ),
+          FFNavigationBarItem(
             iconData: Icons.graphic_eq,
-            label: 'Purple',
+            label: 'Vusialize',
             selectedBackgroundColor: Colors.purple,
           ),
         ],
