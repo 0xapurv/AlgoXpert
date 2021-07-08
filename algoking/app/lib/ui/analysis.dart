@@ -1,5 +1,4 @@
 import 'dart:convert';
-
 import 'package:avatar_glow/avatar_glow.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -199,14 +198,13 @@ class _HomeScreenState extends State<HomeScreen> {
             child: Text(
               'Sorting Algorithm Analyzer',
               style: GoogleFonts.firaCode(
-                  color: Colors.white,
+                  color: Colors.black,
                   fontSize: 20,
                   fontWeight: FontWeight.bold),
             ),
           ),
-          SizedBox(height: 40),
           AvatarGlow(
-            glowColor: Colors.blue,
+            glowColor: Colors.purple,
             endRadius: 70.0,
             duration: Duration(milliseconds: 800),
             repeat: true,
@@ -262,7 +260,7 @@ class _HomeScreenState extends State<HomeScreen> {
               insertionsort(b);
               mergeSort(b, 0, b.length-1);
             },
-            icon: Icon(Icons.sort,color: Colors.black,),
+            icon: Icon(Icons.sort,color: Colors.purple,),
             label: Text(
               'ANALYZE NOW',
               style: GoogleFonts.aBeeZee(color: Colors.black),
