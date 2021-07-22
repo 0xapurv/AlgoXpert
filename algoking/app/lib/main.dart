@@ -1,4 +1,5 @@
 import 'package:app/screens/home.dart';
+import 'package:app/splash.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -12,6 +13,6 @@ class Home extends StatelessWidget {
         debugShowCheckedModeBanner: false,
         theme: ThemeData(primarySwatch: Colors.amber),
         color: Colors.grey,
-        home: MyApp());
+        home: Splash());
   }
 }
