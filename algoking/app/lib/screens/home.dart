@@ -6,6 +6,7 @@ import 'package:app/visualizer/VisulizerProvider.dart';
 import 'package:ff_navigation_bar/ff_navigation_bar.dart';
 import 'package:ff_navigation_bar/ff_navigation_bar_item.dart';
 import 'package:ff_navigation_bar/ff_navigation_bar_theme.dart';
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
@@ -168,7 +169,8 @@ class _MyAppState extends State<MyApp> {
               expandedHeight: 495.0.h,
               centerTitle: true,
               flexibleSpace: FlexibleSpaceBar(
-                title: Text("AlgoXpert",
+                 title:
+                Text("AlgoXpert",
                     style: GoogleFonts.abrilFatface(
                         fontSize: 20, color: Color(0xFF000000))),
                 background: Stack(
