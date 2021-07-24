@@ -46,8 +46,10 @@ class _ParentCardState extends State<ParentCard> {
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(24),
                 gradient: LinearGradient(colors: [
+                  Color(0xdd313872),
+                  Color(0xdd3e4792),
                   Color(0xdd626EE3),
-                  Color(0xdd7560e2),
+                  Color(0xdd959bd3),
                 ]),
                 // boxShadow: [
                 //   BoxShadow(

@@ -10,6 +10,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:lottie/lottie.dart';
 
 
 class MyApp extends StatefulWidget {
@@ -170,9 +171,16 @@ class _MyAppState extends State<MyApp> {
               centerTitle: true,
               flexibleSpace: FlexibleSpaceBar(
                  title:
-                Text("AlgoXpert",
-                    style: GoogleFonts.abrilFatface(
-                        fontSize: 20, color:Colors.pinkAccent)),
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.start,
+                  children: [
+                    Lottie.asset('assets/lottie/logo.json',width: 30),
+                    SizedBox(width: 5,),
+                    Text("AlgoXpert",
+                        style: GoogleFonts.abrilFatface(
+                            fontSize: 20, color:Colors.pinkAccent)),
+                  ],
+                ),
                 background: Stack(
                   fit: StackFit.expand,
                   children: [
@@ -240,7 +248,7 @@ class _MyAppState extends State<MyApp> {
           selectedItemBackgroundColor: Colors.green,
           selectedItemIconColor: Colors.white,
           unselectedItemIconColor: Colors.white,
-          selectedItemLabelColor: Colors.black,
+          selectedItemLabelColor: Colors.white,
           showSelectedItemShadow: true,
           barHeight: 70,
         ),

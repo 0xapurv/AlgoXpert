@@ -190,7 +190,7 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget build(BuildContext context) {
     print(b);
     return Container(
-      color: Colors.white,
+      color:  Color(0xdd001529),
       child: SingleChildScrollView(
         child: Column(children: <Widget>[
           SizedBox(height: 50),
@@ -198,13 +198,13 @@ class _HomeScreenState extends State<HomeScreen> {
             child: Text(
               'Sorting Algorithm Analyzer',
               style: GoogleFonts.firaCode(
-                  color: Colors.black,
+                  color: Colors.white,
                   fontSize: 20,
                   fontWeight: FontWeight.bold),
             ),
           ),
           AvatarGlow(
-            glowColor: Colors.purple,
+            glowColor: Colors.pink,
             endRadius: 70.0,
             duration: Duration(milliseconds: 800),
             repeat: true,
@@ -233,7 +233,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     Text(
                       'Enter your array here:',
                       style: GoogleFonts.abel(
-                          color: Colors.black,
+                          color: Colors.white,
                           fontSize: 18,
                           fontWeight: FontWeight.bold),
                     ),
@@ -260,10 +260,10 @@ class _HomeScreenState extends State<HomeScreen> {
               insertionsort(b);
               mergeSort(b, 0, b.length-1);
             },
-            icon: Icon(Icons.sort,color: Colors.purple,),
+            icon: Icon(Icons.sort,color: Colors.pink,),
             label: Text(
               'ANALYZE NOW',
-              style: GoogleFonts.aBeeZee(color: Colors.black),
+              style: GoogleFonts.aBeeZee(color: Colors.white),
             ),
           ),
           SizedBox(height: 50),

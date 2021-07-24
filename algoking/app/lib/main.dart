@@ -11,8 +11,8 @@ class Home extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
         debugShowCheckedModeBanner: false,
-        theme: ThemeData(primarySwatch: Colors.amber),
-        color: Colors.grey,
+        theme: ThemeData(primarySwatch: Colors.pink),
+        color: Colors.pink,
         home: Splash());
   }
 }
