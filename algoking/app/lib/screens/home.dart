@@ -151,7 +151,7 @@ class _MyAppState extends State<MyApp> {
         .bottom;
 
     return Scaffold(
-      backgroundColor: Colors.grey[300],
+      backgroundColor: Color(0xdd001529),
       body: Container(
         color: Color(0xFF3F5F9),
         child: CustomScrollView(
@@ -162,7 +162,7 @@ class _MyAppState extends State<MyApp> {
                   borderRadius: BorderRadius.only(
                       bottomLeft: Radius.circular(24),
                       bottomRight: Radius.circular(24))),
-              backgroundColor: Color(0xFFFFFFFF),
+              backgroundColor: Color(0xdd001529),
               pinned: this._pinned,
               snap: this._snap,
               floating: this._floating,
@@ -172,7 +172,7 @@ class _MyAppState extends State<MyApp> {
                  title:
                 Text("AlgoXpert",
                     style: GoogleFonts.abrilFatface(
-                        fontSize: 20, color: Color(0xFF000000))),
+                        fontSize: 20, color:Colors.pinkAccent)),
                 background: Stack(
                   fit: StackFit.expand,
                   children: [
@@ -198,7 +198,7 @@ class _MyAppState extends State<MyApp> {
                         child: Column(
                           mainAxisAlignment: MainAxisAlignment.spaceAround,
                           children: [
-                            Image.asset("assets/images/appbartext.png"),
+                            Image.asset("assets/images/appbartext.png",color: Colors.pinkAccent,),
                           ],
                         )),
                   ],
@@ -234,10 +234,12 @@ class _MyAppState extends State<MyApp> {
       bottomNavigationBar: FFNavigationBar(
         theme: FFNavigationBarTheme(
 
-          barBackgroundColor: Colors.white,
+          barBackgroundColor: Color(0xdd001529),
+
           selectedItemBorderColor: Colors.transparent,
           selectedItemBackgroundColor: Colors.green,
           selectedItemIconColor: Colors.white,
+          unselectedItemIconColor: Colors.white,
           selectedItemLabelColor: Colors.black,
           showSelectedItemShadow: true,
           barHeight: 70,
@@ -253,7 +255,7 @@ class _MyAppState extends State<MyApp> {
           FFNavigationBarItem(
             iconData: Icons.home,
             label: 'Home',
-            selectedBackgroundColor: Colors.orange,
+            selectedBackgroundColor: Color(0xdd626EE3),
           ),
           FFNavigationBarItem(
             iconData: Icons.analytics,
@@ -263,7 +265,7 @@ class _MyAppState extends State<MyApp> {
           FFNavigationBarItem(
             iconData: Icons.graphic_eq,
             label: 'Visualize',
-            selectedBackgroundColor: Colors.green,
+            selectedBackgroundColor: Colors.pink,
           ),
         ],
       ),

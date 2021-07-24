@@ -46,9 +46,8 @@ class _ParentCardState extends State<ParentCard> {
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(24),
                 gradient: LinearGradient(colors: [
-                  Color(0xFFFCA91E),
-                  Color(0xFFFBC02D),
-                  Color(0xFFFFC228),
+                  Color(0xdd626EE3),
+                  Color(0xdd7560e2),
                 ]),
                 // boxShadow: [
                 //   BoxShadow(
@@ -73,7 +72,7 @@ class _ParentCardState extends State<ParentCard> {
                     padding: const EdgeInsets.fromLTRB(8.0, 0, 0, 0),
                     child: Text(
                       widget.listText[widget.index],
-                      style: GoogleFonts.bebasNeue(fontSize: 24),
+                      style: GoogleFonts.bebasNeue(fontSize: 24,color: Colors.white),
                     ),
                   ),
                 ],

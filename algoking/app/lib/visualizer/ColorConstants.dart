@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
 
-Color mPrimary = Colors.green;
-Color mPrimaryLight = Color(0xFFBEFFBF);
+Color mPrimary = Colors.pinkAccent;
+Color mPrimaryLight = Colors.white;
 Color mRed = Colors.red;

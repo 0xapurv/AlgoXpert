@@ -1,5 +1,6 @@
 import 'package:app/screens/home.dart';
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:lottie/lottie.dart';
 
 
@@ -14,7 +15,7 @@ class _SplashState extends State<Splash> {
   @override
   void initState() {
     //set time to load the new page
-    Future.delayed(Duration(milliseconds: 6000), () {
+    Future.delayed(Duration(milliseconds: 600), () {
       Navigator.pushReplacement(
           context, MaterialPageRoute(builder: (context) => MyApp()));
     });
@@ -24,7 +25,7 @@ class _SplashState extends State<Splash> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.white,
+      backgroundColor: Color(0xdd001529),
       body: Container(
         alignment: Alignment.center,
         child: Column(
@@ -33,8 +34,16 @@ class _SplashState extends State<Splash> {
           children: [
             SizedBox(
               height: 300,
-              width: 300,
-              child: Image.asset('assets/logo/logo.png'),
+              width: 500,
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  Lottie.asset('assets/lottie/logo.json',width: 100),
+                  Text("AlgoXpert",
+                      style: GoogleFonts.abrilFatface(
+                          fontSize: 40, color: Colors.pinkAccent)),
+                ],
+              ),
             ),
             SizedBox(
                 height: 400,
