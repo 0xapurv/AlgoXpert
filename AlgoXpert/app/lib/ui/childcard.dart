@@ -66,7 +66,7 @@ class _ChildCardState extends State<ChildCard> {
                                 .toString()
                                 .replaceAll("_", " "),
                             textAlign: TextAlign.center,
-                            style: GoogleFonts.abrilFatface(fontSize: 20),
+                            style: GoogleFonts.abrilFatface(fontSize: 20,),
                           ),
                         ),
                       ],

@@ -27,9 +27,9 @@ class Description extends StatelessWidget {
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(24),
                   gradient: LinearGradient(colors: [
-                    Color(0xFFFCA91E),
-                    Color(0xFFFBC02D),
-                    Color(0xFFFFC228),
+
+                    Color(0xdd001529),
+                    Color(0xdd1A2F43),
                   ]),
                 ),
                 child: SizedBox(
@@ -40,7 +40,7 @@ class Description extends StatelessWidget {
                     child: Scrollbar(
                       child: SingleChildScrollView(
                         child: Text(Desc.code[widget.title],
-                            style: GoogleFonts.roboto(fontSize: 18)),
+                            style: GoogleFonts.roboto(fontSize: 18,color: Colors.white)),
                       ),
                     ),
                   ),
@@ -48,7 +48,7 @@ class Description extends StatelessWidget {
               ),
             ),
             Positioned(
-              top: 35.h,
+              top: 31.h,
               child: SizedBox(
                 height: 1230.h,
                 width: 720.w,
@@ -62,6 +62,7 @@ class Description extends StatelessWidget {
                         child: Text(
                           "Description",
                           style: GoogleFonts.bebasNeue(
+                            color: Colors.white,
                               fontSize: 20, fontWeight: FontWeight.w500),
                         ),
 

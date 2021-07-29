@@ -71,7 +71,7 @@ class Code extends StatelessWidget {
         Expanded(
           flex: 2,
           child: Container(
-            color: Colors.amber,
+            color: Colors.pink,
           ),
         )
       ],
