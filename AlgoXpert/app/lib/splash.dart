@@ -15,7 +15,7 @@ class _SplashState extends State<Splash> {
   @override
   void initState() {
     //set time to load the new page
-    Future.delayed(Duration(milliseconds: 6000), () {
+    Future.delayed(Duration(milliseconds: 7500), () {
       Navigator.pushReplacement(
           context, MaterialPageRoute(builder: (context) => MyApp()));
     });

@@ -28,8 +28,10 @@ class Description extends StatelessWidget {
                   borderRadius: BorderRadius.circular(24),
                   gradient: LinearGradient(colors: [
 
-                    Color(0xdd001529),
-                    Color(0xdd1A2F43),
+                    Color(0xdd172071),
+                    Color(0xdd31398b),
+                    Color(0xdd484f98),
+                    Color(0xdd5f65a5),
                   ]),
                 ),
                 child: SizedBox(

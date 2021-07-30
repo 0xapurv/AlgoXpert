@@ -21,8 +21,10 @@ class _CodeBDState extends State<CodeBD> {
   Widget build(BuildContext context) {
     ScreenUtil.init(context, width: 720, height: 1440, allowFontScaling: true);
     return DefaultTabController(
+
       length: 3,
       child: BackdropScaffold(
+
         frontLayerBorderRadius: BorderRadius.only(
             topLeft: Radius.circular(24), topRight: Radius.circular(24)),
         actions: <Widget>[
@@ -48,6 +50,7 @@ class _CodeBDState extends State<CodeBD> {
         ),
         backLayer: Code(widget: widget),
         frontLayer: Description(widget: widget),
+
       ),
     );
   }
