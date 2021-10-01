@@ -54,7 +54,7 @@ git clone --depth 1 https://github.com/<your-github-username>/AlgoXpert.git
 **3.** Navigate to the project directory.
 
 ```terminal
-cd AlgoExpert
+cd AlgoXpert
 ```
 
 **4.** Create a new branch.
@@ -94,7 +94,7 @@ click on `Compare and Pull Request`
 
 <h2 align= "left"><b>Code of Conduct</b></h2>
 
-We follow certain guidelines in order to maintain this repository. Please find our [code of conduct](https://github.com/himanshusharma89/relic_bazaar/blob/master/CODE_OF_CONDUCT.md) and read it carefully.
+We follow certain guidelines in order to maintain this repository. Please find our [code of conduct](https://github.com/believeInJha/AlgoXpert/blob/master/CODE_OF_CONDUCT.md) and read it carefully.
 
 ## Partners
 <p align="center">
