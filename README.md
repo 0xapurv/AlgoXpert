@@ -1,19 +1,21 @@
-# AlgoXpert
+# AlgoXpert⚛️
 The ultimate resource to prepare for coding interviews. Everything you need, in one streamlined
 platform.
 
-![image](https://user-images.githubusercontent.com/59207688/133880664-36d65852-a1cd-4b63-ba24-a40c4d4bfa6c.png)
 
-## Introduction
+<p align= "center"><img width=50% src="https://user-images.githubusercontent.com/59207688/133880664-36d65852-a1cd-4b63-ba24-a40c4d4bfa6c.png"></p>
+
+## Introduction🌻
+
 - The ultimate resource to prepare for coding interviews. Everything you need, in one streamlined platform.
 - Coding interview prep is a numbers game that many candidates lose. We've hand-picked 160 of the best coding interview Algorithms to truly prepare you.
 - Algorithms are tough to learn on paper. Each and every one of our algorithm is accompanied by a visualizer to maximize learning.
 - Understanding how much memory an algorithm uses and how fast it runs is exceedingly important. All of our explanations include a rigorous space-time complexity analysis.
 
-## Features
+## Features🔥
 
 <p align="center">
-   <img src="https://user-images.githubusercontent.com/59207688/135667972-3cb62dfe-3a16-42b3-bdcd-a07318724564.png" />
+   <img width =50% img src="https://user-images.githubusercontent.com/59207688/135667972-3cb62dfe-3a16-42b3-bdcd-a07318724564.png" />
 </p>
 
 <h2 align= "left"><b>Tech Stack🧐</b></h2>
@@ -22,7 +24,7 @@ platform.
 - Firebase
 - REST API
 
-<h2 align= "left"><b>Contributing Guidelines</b></h2>
+<h2 align= "left"><b>Contributing Guidelines📚</b></h2>
 
 1. Make sure to keep the UI consistent while adding a new feature.
 2. When adding new packages, use the package version which is compatible with the new flutter 2 update.
@@ -33,9 +35,11 @@ platform.
 
 Contributions are always welcome! You can also visit our [contributing guidelines](https://github.com/himanshusharma89/relic_bazaar/blob/master/CONTRIBUTING.md) beforing making any contributions. 
 
-<h2 align= "left"><b>Steps</b></h2>
+<h2 align= "left"><b>Steps👣</b></h2>
 
-![Steps](https://media.giphy.com/media/o5BzNDDFQnepi/giphy.gif)
+<p align="center">
+   <img width =50% img src="https://media.giphy.com/media/o5BzNDDFQnepi/giphy.gif" />
+</p>
 
 
 **1.** Fork [this](https://github.com/believeInJha/AlgoXpert.git) repository.
@@ -90,13 +94,15 @@ click on `Compare and Pull Request`
 		
 <img src="https://user-images.githubusercontent.com/41269164/70219836-8d6ea680-176b-11ea-81d5-549093bf0954.png" width=600>
 
-**Congratulations!**  :boom: Sit and relax, you've made your contribution to [Relic Bazar](https://github.com/believeInJha/AlgoXpert.git) project.
+**Congratulations!**  :boom: Sit and relax, you've made your contribution to [AlgoXpert](https://github.com/believeInJha/AlgoXpert.git) project.
 
 <h2 align= "left"><b>Code of Conduct</b></h2>
 
 We follow certain guidelines in order to maintain this repository. Please find our [code of conduct](https://github.com/believeInJha/AlgoXpert/blob/master/CODE_OF_CONDUCT.md) and read it carefully.
 
-## Partners
+## Hacktober Fest 21
+
+Start your contribution today cause Open source is changing the world  one contribution at a time. You can also visit [HactoberFest](https://hacktoberfest.digitalocean.com/) website beforing making any contributions.
 <p align="center">
    <img src="https://user-images.githubusercontent.com/59207688/135668420-387dcb38-3fd4-417e-8440-f5e7ba13ed3d.png" />
 </p>
